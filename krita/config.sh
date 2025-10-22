@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
-
 # check existance
 if ! command -v krita >/dev/null 2>&1; then
     echo "Krita not found. Exiting."
