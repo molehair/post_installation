@@ -10,7 +10,7 @@ sudo reflector --latest 10 --sort rate --save /etc/pacman.d/mirrorlist
 
 
 # install packages
-sudo pacman -S krita
+sudo pacman -S krita godot --noconfirm
 
 # for each package
 for dir in */; do
