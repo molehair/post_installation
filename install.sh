@@ -35,18 +35,3 @@ sudo pacman -S krita godot flatpak mpv vivaldi syncthing alacarte timeshift fcit
 flatpak install flathub com.usebottles.bottles com.github.tchx84.Flatseal com.mattjakeman.ExtensionManager io.github.realmazharhussain.GdmSettings -y
 
 
-# config
-for dir in */; do
-    config_filepath=${dir}config.sh
-    if [ -f "$config_filepath" ]; then
-        bash "$config_filepath"
-    fi
-done
-
-# manual intervention notice
-for dir in */; do
-    config_filepath=${dir}manual_intervention_notice.sh
-    if [ -f "$config_filepath" ]; then
-        bash "$config_filepath"
-    fi
-done
