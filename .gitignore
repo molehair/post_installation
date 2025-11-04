@@ -2,3 +2,4 @@
 /open_tablet_driver/OpenTabletDriver/Logs
 /godot/**/*cache*
 /godot/**/logs
+/mpv/mpv/cache
