@@ -23,12 +23,13 @@ git clone https://aur.archlinux.org/yay-bin.git
 cd yay-bin
 makepkg -si
 cd $orig_working_directory
+yay --save --answerdiff None --answerclean None --removemake
 
 # install packages from yay
 yay -Sy github-desktop-bin brave-bin spoofdpi-bin ttf-nanum noto-fonts-cjk
 
 # install packages from official repo
-sudo pacman -S krita godot flatpak mpv vivaldi syncthing alacarte timeshift fcitx5 fcitx5-hangul fcitx5-gtk dconf-editor mpv --noconfirm
+sudo pacman -S krita godot flatpak mpv vivaldi syncthing alacarte timeshift fcitx5 fcitx5-hangul fcitx5-gtk fcitx5-config-qt dconf-editor mpv bash-completion alacarte --noconfirm
 
 # install packages from flatpak
 flatpak install flathub com.usebottles.bottles com.github.tchx84.Flatseal com.mattjakeman.ExtensionManager io.github.realmazharhussain.GdmSettings -y

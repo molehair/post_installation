@@ -16,6 +16,7 @@ ln -s -f "$script_dir/kritashortcutsrc" ~/.config/
 
 
 # brush tags
+mkdir -p ~/.local/share/krita/
 ln -s -f "$script_dir/resourcecache.sqlite" ~/.local/share/krita/
 
 # done
