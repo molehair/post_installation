@@ -2,13 +2,13 @@ AlsoSaveAsKra=false
 AntialiasSelectionOutline=false
 ArtColorSel.ColorSpace=0
 ArtColorSel.InversedSaturation=false
-ArtColorSel.Light=0.23435775807880024
+ArtColorSel.Light=0.49432238120318883
 ArtColorSel.LightPieces=11
 ArtColorSel.NumRings=7
 ArtColorSel.RingPieces=12
-ArtColorSel.SelColorH=0.07207544034562977
-ArtColorSel.SelColorS=0.777556877852211
-ArtColorSel.SelColorX=0.23435775807880024
+ArtColorSel.SelColorH=0
+ArtColorSel.SelColorS=0
+ArtColorSel.SelColorX=0.49432238120318883
 ArtColorSel.defaultHueSteps=12
 ArtColorSel.defaultSaturationSteps=7
 ArtColorSel.defaultValueScaleSteps=11
@@ -31,7 +31,7 @@ ConvertToImageColorSpaceOnImport=false
 CreateBackupFile=true
 ExportConfiguration-ANIMATION_EXPORT=<!DOCTYPE params>\n<params>\n <param name="basename" type="string"><![CDATA[mirror_2_]]></param>\n <param name="custom_ffmpeg_options" type="string"><![CDATA[-crf 23 -preset medium -profile:v baseline -pix_fmt yuv420p]]></param>\n <param name="delete_sequence" type="internal">false</param>\n <param name="directory" type="string"><![CDATA[/home/j/Documents/GitHub/Overwrite/assets/mirror]]></param>\n <param name="encode_video" type="internal">false</param>\n <param name="ffmpeg_path" type="string"><![CDATA[/usr/bin/..//bin/ffmpeg]]></param>\n <param name="filename" type="string"><![CDATA[./mirror.mp4]]></param>\n <param name="first_frame" type="internal">0</param>\n <param name="frame_export/CICPCompatiblePrimaries" type="internal">1</param>\n <param name="frame_export/CICPCompatibleTransferFunction" type="internal">13</param>\n <param name="frame_export/ColorDepthID" type="string"><![CDATA[U8]]></param>\n <param name="frame_export/ColorModelID" type="string"><![CDATA[RGBA]]></param>\n <param name="frame_export/HDRSupported" type="internal">false</param>\n <param name="frame_export/ImageContainsTransparency" type="internal">true</param>\n <param name="frame_export/sRGB" type="internal">true</param>\n <param name="frame_mimetype" type="string"><![CDATA[image/png]]></param>\n <param name="framerate" type="internal">24</param>\n <param name="height" type="internal">300</param>\n <param name="include_audio" type="internal">true</param>\n <param name="last_document_path" type="string"><![CDATA[/home/j/Documents/GitHub/Overwrite/assets/mirror/mirror.kra]]></param>\n <param name="last_frame" type="internal">5</param>\n <param name="only_unique_frames" type="internal">false</param>\n <param name="sequence_start" type="internal">0</param>\n <param name="video_mimetype" type="string"><![CDATA[video/mp4]]></param>\n <param name="width" type="internal">100</param>\n</params>\n
 ExportConfiguration-StrokeSelection=<!DOCTYPE params>\n<params>\n <param name="color" type="color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB g="0" r="0" space="sRGB-elle-V2-srgbtrc.icc" b="0"/>\n</color>\n]]></param>\n <param name="colorFillSource" type="internal">0</param>\n <param name="customColor" type="color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB g="0" r="0" space="sRGB-elle-V2-g10.icc" b="0"/>\n</color>\n]]></param>\n <param name="fillColor" type="color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB g="0" r="0" space="sRGB-elle-V2-g10.icc" b="0"/>\n</color>\n]]></param>\n <param name="lineColorSource" type="internal">1</param>\n <param name="lineDimension" type="internal">0</param>\n <param name="lineSize" type="internal">4</param>\n <param name="useBrush" type="internal">false</param>\n</params>\n
-ExportConfiguration-image/png=<!DOCTYPE params>\n<params>\n <param name="alpha" type="internal">true</param>\n <param name="compression" type="internal">3</param>\n <param name="downsample" type="internal">false</param>\n <param name="forceSRGB" type="internal">true</param>\n <param name="indexed" type="internal">false</param>\n <param name="interlaced" type="internal">false</param>\n <param name="saveAsHDR" type="internal">false</param>\n <param name="saveSRGBProfile" type="internal">false</param>\n <param name="storeAuthor" type="internal">false</param>\n <param name="storeMetaData" type="internal">false</param>\n <param name="transparencyFillcolor" type="color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB g="1" r="1" b="1" space="sRGB-elle-V2-g10.icc"/>\n</color>\n]]></param>\n</params>\n
+ExportConfiguration-image/png=<!DOCTYPE params>\n<params>\n <param name="alpha" type="internal">true</param>\n <param name="compression" type="internal">3</param>\n <param name="downsample" type="internal">false</param>\n <param name="forceSRGB" type="internal">true</param>\n <param name="indexed" type="internal">false</param>\n <param name="interlaced" type="internal">false</param>\n <param name="saveAsHDR" type="internal">false</param>\n <param name="saveSRGBProfile" type="internal">false</param>\n <param name="storeAuthor" type="internal">false</param>\n <param name="storeMetaData" type="internal">false</param>\n <param name="transparencyFillcolor" type="color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB b="1" g="1" space="sRGB-elle-V2-g10.icc" r="1"/>\n</color>\n]]></param>\n</params>\n
 FilterSelector/LastUsedFilter=hsvadjustment
 GamutMasks.viewMode=0
 KineticScrollingEnabled=true
@@ -48,11 +48,11 @@ Krita/Ocio/OcioConfigPath=
 Krita/Ocio/OcioLockColorVisualRepresentation=false
 Krita/Ocio/OcioLutPath=
 Krita/Ocio/UseOcio=false
-LastBackGroundColor=<!DOCTYPE LastBackGroundColor>\n<LastBackGroundColor>\n <RGB g="1" r="1" b="1" space="sRGB-elle-V2-srgbtrc.icc"/>\n</LastBackGroundColor>\n
+LastBackGroundColor=<!DOCTYPE LastBackGroundColor>\n<LastBackGroundColor>\n <RGB b="0.498039215803146" space="sRGB-elle-V2-srgbtrc.icc" r="0.498039215803146" g="0.498039215803146"/>\n</LastBackGroundColor>\n
 LastEraser_0=y) Texture Large Splat
-LastForeGroundColor=<!DOCTYPE LastForeGroundColor>\n<LastForeGroundColor>\n <RGB g="0.207843139767647" r="0.294117659330368" b="0.0941176488995552" space="sRGB-elle-V2-srgbtrc.icc"/>\n</LastForeGroundColor>\n
-LastPreset=y) Texture Wood Fiber
-LastPreset_-1=y) Texture Wood Fiber
+LastForeGroundColor=<!DOCTYPE LastForeGroundColor>\n<LastForeGroundColor>\n <RGB b="0.498039215803146" space="sRGB-elle-V2-srgbtrc.icc" r="0.498039215803146" g="0.498039215803146"/>\n</LastForeGroundColor>\n
+LastPreset=g) Dry Bristles
+LastPreset_-1=g) Dry Bristles
 LineSmoothingDelayDistance=50
 LineSmoothingDistance=300
 LineSmoothingFinishStabilizedCurve=true
@@ -90,7 +90,7 @@ autosavefileshidden=true
 backupfilelocation=0
 backupfilesuffix=~
 baseLength=80
-brushHudSettings=<!DOCTYPE hud_properties>\n<hud_properties>\n <version value="1" type="value"/>\n <paintbrush>\n  <properties_list type="array">\n   <item_0 value="size" type="value"/>\n   <item_1 value="opacity" type="value"/>\n   <item_2 value="angle" type="value"/>\n  </properties_list>\n </paintbrush>\n <colorsmudge>\n  <properties_list type="array">\n   <item_0 value="size" type="value"/>\n   <item_1 value="opacity" type="value"/>\n   <item_2 value="smudge_mode" type="value"/>\n   <item_3 value="smudge_length" type="value"/>\n   <item_4 value="smudge_color_rate" type="value"/>\n  </properties_list>\n </colorsmudge>\n <sketchbrush>\n  <properties_list type="array">\n   <item_0 value="opacity" type="value"/>\n   <item_1 value="size" type="value"/>\n  </properties_list>\n </sketchbrush>\n <hairybrush>\n  <properties_list type="array">\n   <item_0 value="size" type="value"/>\n   <item_1 value="opacity" type="value"/>\n  </properties_list>\n </hairybrush>\n <experimentbrush>\n  <properties_list type="array">\n   <item_0 value="opacity" type="value"/>\n   <item_1 value="shape_windingfill" type="value"/>\n  </properties_list>\n </experimentbrush>\n <spraybrush>\n  <properties_list type="array">\n   <item_0 value="size" type="value"/>\n   <item_1 value="opacity" type="value"/>\n   <item_2 value="spray_particlecount" type="value"/>\n   <item_3 value="spray_density" type="value"/>\n  </properties_list>\n </spraybrush>\n <hatchingbrush>\n  <properties_list type="array">\n   <item_0 value="size" type="value"/>\n   <item_1 value="opacity" type="value"/>\n   <item_2 value="hatching_angle" type="value"/>\n   <item_3 value="hatching_thickness" type="value"/>\n   <item_4 value="hatching_separation" type="value"/>\n  </properties_list>\n </hatchingbrush>\n <gridbrush>\n  <properties_list type="array">\n   <item_0 value="size" type="value"/>\n   <item_1 value="opacity" type="value"/>\n   <item_2 value="grid_divisionlevel" type="value"/>\n  </properties_list>\n </gridbrush>\n <curvebrush>\n  <properties_list type="array">\n   <item_0 value="opacity" type="value"/>\n   <item_1 value="curve_historysize" type="value"/>\n   <item_2 value="curve_linewidth" type="value"/>\n   <item_3 value="curve_lineopacity" type="value"/>\n   <item_4 value="curve_connectionline" type="value"/>\n  </properties_list>\n </curvebrush>\n <dynabrush>\n  <properties_list type="array">\n   <item_0 value="dyna_diameter" type="value"/>\n   <item_1 value="opacity" type="value"/>\n   <item_2 value="dyna_mass" type="value"/>\n   <item_3 value="dyna_drag" type="value"/>\n  </properties_list>\n </dynabrush>\n <particlebrush>\n  <properties_list type="array">\n   <item_0 value="opacity" type="value"/>\n   <item_1 value="particle_particles" type="value"/>\n   <item_2 value="particle_opecityweight" type="value"/>\n   <item_3 value="particle_iterations" type="value"/>\n  </properties_list>\n </particlebrush>\n <duplicate>\n  <properties_list type="array">\n   <item_0 value="size" type="value"/>\n   <item_1 value="opacity" type="value"/>\n   <item_2 value="clone_healing" type="value"/>\n   <item_3 value="clone_movesource" type="value"/>\n  </properties_list>\n </duplicate>\n <deformbrush>\n  <properties_list type="array">\n   <item_0 value="size" type="value"/>\n   <item_1 value="opacity" type="value"/>\n   <item_2 value="deform_amount" type="value"/>\n   <item_3 value="deform_mode" type="value"/>\n  </properties_list>\n </deformbrush>\n <tangentnormal>\n  <properties_list type="array">\n   <item_0 value="size" type="value"/>\n   <item_1 value="opacity" type="value"/>\n  </properties_list>\n </tangentnormal>\n <filter>\n  <properties_list type="array">\n   <item_0 value="size" type="value"/>\n   <item_1 value="opacity" type="value"/>\n  </properties_list>\n </filter>\n <roundmarker>\n  <properties_list type="array">\n   <item_0 value="opacity" type="value"/>\n   <item_1 value="size" type="value"/>\n  </properties_list>\n </roundmarker>\n</hud_properties>\n
+brushHudSettings=<!DOCTYPE hud_properties>\n<hud_properties>\n <version type="value" value="1"/>\n <paintbrush>\n  <properties_list type="array">\n   <item_0 type="value" value="size"/>\n   <item_1 type="value" value="opacity"/>\n   <item_2 type="value" value="angle"/>\n  </properties_list>\n </paintbrush>\n <colorsmudge>\n  <properties_list type="array">\n   <item_0 type="value" value="size"/>\n   <item_1 type="value" value="opacity"/>\n   <item_2 type="value" value="smudge_mode"/>\n   <item_3 type="value" value="smudge_length"/>\n   <item_4 type="value" value="smudge_color_rate"/>\n  </properties_list>\n </colorsmudge>\n <sketchbrush>\n  <properties_list type="array">\n   <item_0 type="value" value="opacity"/>\n   <item_1 type="value" value="size"/>\n  </properties_list>\n </sketchbrush>\n <hairybrush>\n  <properties_list type="array">\n   <item_0 type="value" value="size"/>\n   <item_1 type="value" value="opacity"/>\n  </properties_list>\n </hairybrush>\n <experimentbrush>\n  <properties_list type="array">\n   <item_0 type="value" value="opacity"/>\n   <item_1 type="value" value="shape_windingfill"/>\n  </properties_list>\n </experimentbrush>\n <spraybrush>\n  <properties_list type="array">\n   <item_0 type="value" value="size"/>\n   <item_1 type="value" value="opacity"/>\n   <item_2 type="value" value="spray_particlecount"/>\n   <item_3 type="value" value="spray_density"/>\n  </properties_list>\n </spraybrush>\n <hatchingbrush>\n  <properties_list type="array">\n   <item_0 type="value" value="size"/>\n   <item_1 type="value" value="opacity"/>\n   <item_2 type="value" value="hatching_angle"/>\n   <item_3 type="value" value="hatching_thickness"/>\n   <item_4 type="value" value="hatching_separation"/>\n  </properties_list>\n </hatchingbrush>\n <gridbrush>\n  <properties_list type="array">\n   <item_0 type="value" value="size"/>\n   <item_1 type="value" value="opacity"/>\n   <item_2 type="value" value="grid_divisionlevel"/>\n  </properties_list>\n </gridbrush>\n <curvebrush>\n  <properties_list type="array">\n   <item_0 type="value" value="opacity"/>\n   <item_1 type="value" value="curve_historysize"/>\n   <item_2 type="value" value="curve_linewidth"/>\n   <item_3 type="value" value="curve_lineopacity"/>\n   <item_4 type="value" value="curve_connectionline"/>\n  </properties_list>\n </curvebrush>\n <dynabrush>\n  <properties_list type="array">\n   <item_0 type="value" value="dyna_diameter"/>\n   <item_1 type="value" value="opacity"/>\n   <item_2 type="value" value="dyna_mass"/>\n   <item_3 type="value" value="dyna_drag"/>\n  </properties_list>\n </dynabrush>\n <particlebrush>\n  <properties_list type="array">\n   <item_0 type="value" value="opacity"/>\n   <item_1 type="value" value="particle_particles"/>\n   <item_2 type="value" value="particle_opecityweight"/>\n   <item_3 type="value" value="particle_iterations"/>\n  </properties_list>\n </particlebrush>\n <duplicate>\n  <properties_list type="array">\n   <item_0 type="value" value="size"/>\n   <item_1 type="value" value="opacity"/>\n   <item_2 type="value" value="clone_healing"/>\n   <item_3 type="value" value="clone_movesource"/>\n  </properties_list>\n </duplicate>\n <deformbrush>\n  <properties_list type="array">\n   <item_0 type="value" value="size"/>\n   <item_1 type="value" value="opacity"/>\n   <item_2 type="value" value="deform_amount"/>\n   <item_3 type="value" value="deform_mode"/>\n  </properties_list>\n </deformbrush>\n <tangentnormal>\n  <properties_list type="array">\n   <item_0 type="value" value="size"/>\n   <item_1 type="value" value="opacity"/>\n  </properties_list>\n </tangentnormal>\n <filter>\n  <properties_list type="array">\n   <item_0 type="value" value="size"/>\n   <item_1 type="value" value="opacity"/>\n  </properties_list>\n </filter>\n <roundmarker>\n  <properties_list type="array">\n   <item_0 type="value" value="opacity"/>\n   <item_1 type="value" value="size"/>\n  </properties_list>\n </roundmarker>\n</hud_properties>\n
 calculateAnimationCacheInBackground=true
 canvasBorderColor=128,128,128
 canvasState=OPENGL_SUCCESS
@@ -132,7 +132,7 @@ eraserCursorStyle=9
 eraserOutlineStyle=2
 favoritePresetsTag=my
 ffmpegLocation=/usr/bin/..//bin/ffmpeg
-filterdialog/geometry=\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x08\xf7\x00\x00\x04j\x00\x00\x0bd\x00\x00\x06\x8b\x00\x00\x08\xf7\x00\x00\x04\x8a\x00\x00\x0bd\x00\x00\x06\x8b\x00\x00\x00\x00\x00\x00\x00\x00\x0f\x00\x00\x00\x08\xf7\x00\x00\x04\x8a\x00\x00\x0bd\x00\x00\x06\x8b
+filterdialog/geometry=\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x08\xf7\x00\x00\x04S\x00\x00\x0bd\x00\x00\x06y\x00\x00\x08\xf7\x00\x00\x04x\x00\x00\x0bd\x00\x00\x06y\x00\x00\x00\x00\x00\x00\x00\x00\x0c\x00\x00\x00\x08\xf7\x00\x00\x04x\x00\x00\x0bd\x00\x00\x06y
 filterdialog/rememberlastpreset=false
 forceAlwaysFullSizedEraserOutline=false
 forceAlwaysFullSizedOutline=false
@@ -183,7 +183,7 @@ logviewer_enabled=false
 maxAllowedSpeedValue=30
 maxSwapSize=4096
 maximumBrushSize=1000
-mdiBackgroundColorXML=<!DOCTYPE color>\n<color channeldepth="U8">\n <RGB g="0.301960796117783" r="0.301960796117783" space="sRGB-elle-V2-srgbtrc.icc" b="0.301960796117783"/>\n</color>\n
+mdiBackgroundColorXML=<!DOCTYPE color>\n<color channeldepth="U8">\n <RGB b="0.301960796117783" g="0.301960796117783" r="0.301960796117783" space="sRGB-elle-V2-srgbtrc.icc"/>\n</color>\n
 mdiBackgroundImage=
 mdi_rubberband=1
 mdi_viewmode=1
@@ -192,8 +192,8 @@ memoryPoolLimitPercent=0
 memorySoftLimitPercent=2
 monitorProfile=sRGB-elle-V2-srgbtrc.icc
 monitorProfile/OverrideX11=false
-moveToolChangedValueX=-48
-moveToolChangedValueY=3
+moveToolChangedValueX=52
+moveToolChangedValueY=234
 moveToolUnit=0
 needsPixmapCacheWorkaround=false
 newCursorStyle=0
@@ -259,7 +259,7 @@ popuppalette/useDynamicSlotCount=true
 popuppalette/usevisualcolorselector=false
 presetChooserViewMode=0
 presetIconSize=80
-presethistory=y) Texture Big,k) Blender Blur,d) Ink-1 Precision,z) Stamp Mountains Distant,z) Stamp Vegetal,z) Stamp Leaves,y) Texture Large Splat,y) Texture Crackles,g) Dry Bristles,y) Texture Wood Fiber
+presethistory=d) Ink-1 Precision,c) Pencil-2,y) Texture Big,g) Dry Bristles,z) Stamp Floor,z) Stamp Leaves,b) Basic-1,y) Texture Wood Fiber,k) Blender Blur,k) Blender Smear
 renameMergedLayers=true
 renamePastedLayers=true
 renderIntent=0
@@ -311,9 +311,9 @@ zoomSteps=2
 Choose the resource library to import=/home/j/Downloads
 DontUseNativeFileDialog=true
 ExportShortcuts=/home/j/Downloads
-OpenDocument=/home/j/Documents/GitHub/Overwrite/assets/platform
+OpenDocument=/home/j/Documents/GitHub/Overwrite/assets/mountain/intangible
 OpenReferenceImage=/home/j/Downloads
-SaveAs=/home/j/Documents/GitHub/Overwrite/assets/mountain/tangible
+SaveAs=/home/j/Documents/GitHub/Overwrite/assets/mountain/intangible
 SaveCustomShortcuts=/home/j/Downloads
 
 [GradientChooser]
@@ -329,6 +329,11 @@ splitterState_1row=\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\xff\xff\xff\
 
 [KisShortcutsDialog Settings]
 Dialog Size=647,533
+
+[KisToolCrop]
+allowGrow=true
+decoration=1
+growCenter=false
 
 [KisToolPath]
 fillType=0
@@ -367,8 +372,8 @@ iconSize=48
 [KritaFill/KisToolFill]
 colorLabels=2,6
 fillSelection=false
-growSelection=2
-sampleLayersMode=colorLabeledLayers
+growSelection=1
+sampleLayersMode=currentLayer
 
 [KritaShape/KisToolDyna]
 angleAmount=20
@@ -394,18 +399,21 @@ forceLodMode=false
 
 [MainWindow]
 1920x1080 screen: Window-Maximized=true
+3072x1728 screen: Height=1589
+3072x1728 screen: Width=3072
 3840x2160 screen: Height=2075
 3840x2160 screen: Width=3840
 3840x2160 screen: Window-Maximized=true
-State=AAAA/wAAAAD9AAAABAAAAAAAAAR6AAAFM/wCAAAABPwAAACIAAACkQAAAVoA/////AEAAAAC/AAAAAAAAAIBAAABAgD////6AAAAAAEAAAAD+wAAAB4AQwBvAGwAbwByAFMAZQBsAGUAYwB0AG8AcgBOAGcBAAAAAP////8AAABaAP////sAAAAaAFAAYQBsAGUAdAB0AGUARABvAGMAawBlAHIBAAAAAP////8AAAECAP////sAAAAcAE8AdgBlAHIAdgBpAGUAdwBEAG8AYwBrAGUAcgEAAAAA/////wAAAEYA/////AAAAgoAAAJwAAAAiwD////6AAAAAAIAAAAC+wAAACAAcwBoAGEAcgBlAGQAdABvAG8AbABkAG8AYwBrAGUAcgEAAAG4AAABRQAAAH0A////+wAAABQARwByAGkAZABEAG8AYwBrAGUAcgEAAAAA/////wAAATEA/////AAAAyIAAAKZAAABCwD////8AQAAAAL8AAAAAAAAAfcAAAECAP////oAAAAAAQAAAAL7AAAAFgBLAGkAcwBMAGEAeQBlAHIAQgBvAHgBAAAAAAAAAQwAAAECAP////sAAAAiAEMAbwBtAHAAbwBzAGkAdABpAG8AbgBEAG8AYwBrAGUAcgEAAAAA/////wAAAPEA////+wAAABgAUAByAGUAcwBlAHQARABvAGMAawBlAHIBAAACAAAAAnoAAABmAP////sAAAAkAEYAbABvAHcAUwBoAGEAcABlAEIAbwB4AEQAbwBjAGsAZQByAAAAA2oAAADHAAAAAAAAAAD7AAAAKABGAGwAbwB3AFMAdABlAG4AYwBpAGwAQgBvAHgARABvAGMAawBlAHIAAAADfQAAAMcAAAAAAAAAAAAAAAEAAAE8AAAFTPwCAAAAQvsAAAAaAEsAaQBzAEIAaQByAGQAZQB5AGUAQgBvAHgAAAAAAP////8AAAAAAAAAAPsAAAAgAEsAaQBzAFAAYQBsAGUAdAB0AGUARABvAGMAawBlAHIAAAAAAP////8AAAAAAAAAAPsAAAAaAEsAbwBDAG8AbABvAHIARABvAGMAawBlAHIAAAAAAP////8AAAAAAAAAAPsAAAAwAEsAaQBzAFQAcgBpAGEAbgBnAGwAZQBDAG8AbABvAHIAUwBlAGwAZQBjAHQAbwByAAAAAAD/////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AEQAbwBjAHUAbQBlAG4AdABJAG4AcwBwAGUAYwB0AGkAbwBuAEQAbwBjAGsAZQByAgAABJoAAAIVAAABKgAAAK77AAAAEgBMAHUAdABEAG8AYwBrAGUAcgAAAAAA/////wAAAb8A////+wAAAB4ASABpAHMAdABvAGcAcgBhAG0ARABvAGMAawBlAHIAAAAAAP////8AAABLAP////sAAAAyAFMAdgBnAFMAeQBtAGIAbwBsAEMAbwBsAGwAZQBjAHQAaQBvAG4ARABvAGMAawBlAHIAAAAAAP////8AAACpAP////sAAAAWAFQAbwB1AGMAaABEAG8AYwBrAGUAcgAAAAJMAAABMQAAABkA////+wAAABoAQQByAHIAYQBuAGcAZQBEAG8AYwBrAGUAcgAAAAAA/////wAAAEoA////+wAAADoAYwBvAG0AaQBjAHMAXwBwAHIAbwBqAGUAYwB0AF8AbQBhAG4AYQBnAGUAcgBfAGQAbwBjAGsAZQByAAAAAAD/////AAAA9QD////7AAAAKgBxAHUAaQBjAGsAXwBzAGUAdAB0AGkAbgBnAHMAXwBkAG8AYwBrAGUAcgAAAAAA/////wAAAK4A////+wAAABYAUABhAGcAZQByAEQAbwBjAGsAZQByAAAAAAD/////AAAAAAAAAAD7AAAAJgBsAGEAcwB0AGQAbwBjAHUAbQBlAG4AdABzAGQAbwBjAGsAZQByAAAAAAD/////AAAArAD////7AAAAEgBHAGEAbQB1AHQATQBhAHMAawAAAAAA/////wAAAOoA////+wAAABAAUwBuAGEAcABzAGgAbwB0AAAAAt8AAACkAAAAqQD////7AAAAEgBMAG8AZwBEAG8AYwBrAGUAcgAAAAAA/////wAAAKsA////+wAAABwAUgBlAGMAbwByAGQAZQByAEQAbwBjAGsAZQByAAAAAAD/////AAAAfwD////7AAAAIABTAHQAbwByAHkAYgBvAGEAcgBkAEQAbwBjAGsAZQByAAAAAAD/////AAAAzgD////7AAAALABXAGkAZABlAEcAYQBtAHUAdABDAG8AbABvAHIAUwBlAGwAZQBjAHQAbwByAAAAAAD/////AAAAxwD///8AAAACAAAPAAAAADr8AQAAAAL7AAAADgBUAG8AbwBsAEIAbwB4AQAAAAAAAA8AAAAAUQD////7AAAAGgBUAG8AbwBsAEIAYQByAEQAbwBjAGsAZQByAAAAAAD/////AAAAAAAAAAAAAAADAAAPAAAAAhb8AQAAAAT8AAAAAAAAC24AAAS+AP////oAAAAAAgAAAAL7AAAAHABUAGkAbQBlAGwAaQBuAGUARABvAGMAawBlAHIBAAAAAP////8AAABSAP////sAAAAqAEEAbgBpAG0AYQB0AGkAbwBuAEMAdQByAHYAZQBzAEQAbwBjAGsAZQByAQAABeIAAAITAAAAigD////7AAAAHABGAGwAaQBwAGIAbwBvAGsARABvAGMAawBlAHIAAAAAAP////8AAAAAAAAAAPsAAAAeAEEAbgBpAG0AYQB0AGkAbwBuAEQAbwBjAGsAZQByAAAAAAD/////AAAAAAAAAAD7AAAAIABPAG4AaQBvAG4AUwBrAGkAbgBzAEQAbwBjAGsAZQByAQAAC3cAAAOJAAABZQD///8AAAp9AAAFMwAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAADAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAAB4AQgByAHUAcwBoAGUAcwBBAG4AZABTAHQAdQBmAGYBAAAAaP////8AAAAAAAAAAAAAABYAZQBkAGkAdABUAG8AbwBsAEIAYQByAAAAAAD/////AAAAAAAAAAA=
+6144x3456 screen: Window-Maximized=true
+State=AAAA/wAAAAD9AAAABAAAAAAAAANzAAAEIfwCAAAABPwAAAB8AAAB2AAAAUgA/////AEAAAAC/AAAAAAAAAGNAAAA4QD////6AAAAAAEAAAAD+wAAAB4AQwBvAGwAbwByAFMAZQBsAGUAYwB0AG8AcgBOAGcBAAAAAP////8AAABaAP////sAAAAaAFAAYQBsAGUAdAB0AGUARABvAGMAawBlAHIBAAAAAP////8AAADhAP////sAAAAcAE8AdgBlAHIAdgBpAGUAdwBEAG8AYwBrAGUAcgEAAAAA/////wAAAEYA/////AAAAZMAAAHgAAAAewD////6AAAAAAIAAAAC+wAAACAAcwBoAGEAcgBlAGQAdABvAG8AbABkAG8AYwBrAGUAcgEAAAG4AAABRQAAAFUA////+wAAABQARwByAGkAZABEAG8AYwBrAGUAcgEAAAAA/////wAAASsA/////AAAAloAAAJDAAAA1QD////8AQAAAAL8AAAAAAAAAbwAAAECAP////oAAAAAAQAAAAL7AAAAFgBLAGkAcwBMAGEAeQBlAHIAQgBvAHgBAAAAAAAAAQwAAAECAP////sAAAAiAEMAbwBtAHAAbwBzAGkAdABpAG8AbgBEAG8AYwBrAGUAcgEAAAAA/////wAAAMUA////+wAAABgAUAByAGUAcwBlAHQARABvAGMAawBlAHIBAAABwgAAAbEAAABmAP////sAAAAkAEYAbABvAHcAUwBoAGEAcABlAEIAbwB4AEQAbwBjAGsAZQByAAAAA2oAAADHAAAAAAAAAAD7AAAAKABGAGwAbwB3AFMAdABlAG4AYwBpAGwAQgBvAHgARABvAGMAawBlAHIAAAADfQAAAMcAAAAAAAAAAAAAAAEAAAE8AAAFTPwCAAAAQvsAAAAaAEsAaQBzAEIAaQByAGQAZQB5AGUAQgBvAHgAAAAAAP////8AAAAAAAAAAPsAAAAgAEsAaQBzAFAAYQBsAGUAdAB0AGUARABvAGMAawBlAHIAAAAAAP////8AAAAAAAAAAPsAAAAaAEsAbwBDAG8AbABvAHIARABvAGMAawBlAHIAAAAAAP////8AAAAAAAAAAPsAAAAwAEsAaQBzAFQAcgBpAGEAbgBnAGwAZQBDAG8AbABvAHIAUwBlAGwAZQBjAHQAbwByAAAAAAD/////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AEQAbwBjAHUAbQBlAG4AdABJAG4AcwBwAGUAYwB0AGkAbwBuAEQAbwBjAGsAZQByAgAABJoAAAIVAAABKgAAAK77AAAAEgBMAHUAdABEAG8AYwBrAGUAcgAAAAAA/////wAAAWEA////+wAAAB4ASABpAHMAdABvAGcAcgBhAG0ARABvAGMAawBlAHIAAAAAAP////8AAABFAP////sAAAAyAFMAdgBnAFMAeQBtAGIAbwBsAEMAbwBsAGwAZQBjAHQAaQBvAG4ARABvAGMAawBlAHIAAAAAAP////8AAAB4AP////sAAAAWAFQAbwB1AGMAaABEAG8AYwBrAGUAcgAAAAJMAAABMQAAABMA////+wAAABoAQQByAHIAYQBuAGcAZQBEAG8AYwBrAGUAcgAAAAAA/////wAAADYA////+wAAADoAYwBvAG0AaQBjAHMAXwBwAHIAbwBqAGUAYwB0AF8AbQBhAG4AYQBnAGUAcgBfAGQAbwBjAGsAZQByAAAAAAD/////AAAAAAAAAAD7AAAAKgBxAHUAaQBjAGsAXwBzAGUAdAB0AGkAbgBnAHMAXwBkAG8AYwBrAGUAcgAAAAAA/////wAAAAAAAAAA+wAAABYAUABhAGcAZQByAEQAbwBjAGsAZQByAAAAAAD/////AAAAAAAAAAD7AAAAJgBsAGEAcwB0AGQAbwBjAHUAbQBlAG4AdABzAGQAbwBjAGsAZQByAAAAAAD/////AAAAAAAAAAD7AAAAEgBHAGEAbQB1AHQATQBhAHMAawAAAAAA/////wAAAKoA////+wAAABAAUwBuAGEAcABzAGgAbwB0AAAAAt8AAACkAAAAdgD////7AAAAEgBMAG8AZwBEAG8AYwBrAGUAcgAAAAAA/////wAAAHkA////+wAAABwAUgBlAGMAbwByAGQAZQByAEQAbwBjAGsAZQByAAAAAAD/////AAAAVwD////7AAAAIABTAHQAbwByAHkAYgBvAGEAcgBkAEQAbwBjAGsAZQByAAAAAAD/////AAAAmgD////7AAAALABXAGkAZABlAEcAYQBtAHUAdABDAG8AbABvAHIAUwBlAGwAZQBjAHQAbwByAAAAAAD/////AAAArgD///8AAAACAAAMAAAAADr8AQAAAAL7AAAADgBUAG8AbwBsAEIAbwB4AQAAAAAAAAwAAAAASwD////7AAAAGgBUAG8AbwBsAEIAYQByAEQAbwBjAGsAZQByAAAAAAD/////AAAAAAAAAAAAAAADAAAMAAAAAXD8AQAAAAT8AAAAAAAACSUAAAQnAP////oAAAAAAgAAAAL7AAAAHABUAGkAbQBlAGwAaQBuAGUARABvAGMAawBlAHIBAAAAAP////8AAABSAP////sAAAAqAEEAbgBpAG0AYQB0AGkAbwBuAEMAdQByAHYAZQBzAEQAbwBjAGsAZQByAQAABeIAAAITAAAAaAD////7AAAAHABGAGwAaQBwAGIAbwBvAGsARABvAGMAawBlAHIAAAAAAP////8AAAAAAAAAAPsAAAAeAEEAbgBpAG0AYQB0AGkAbwBuAEQAbwBjAGsAZQByAAAAAAD/////AAAAAAAAAAD7AAAAIABPAG4AaQBvAG4AUwBrAGkAbgBzAEQAbwBjAGsAZQByAQAACSsAAALVAAABIgD///8AAAiHAAAEIQAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAIAAAADAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAAB4AQgByAHUAcwBoAGUAcwBBAG4AZABTAHQAdQBmAGYBAAAAZv////8AAAAAAAAAAAAAABYAZQBkAGkAdABUAG8AbwBsAEIAYQByAAAAAAD/////AAAAAAAAAAA=
 ToolBarsMovable=Disabled
-ko_geometry=AdnQywADAAAAAAAAAAAAAAAADv8AAAgtAAAAAAAAACoAAA7/AAAILQAAAAACAAAADwAAAAAAAAAAKgAADv8AAAgt
+ko_geometry=AdnQywADAAAAAAAAAAAAIAAAC/8AAAZ5AAAAAAAAAEUAAAv/AAAGeQAAAAAAAAAADAAAAAAAAAAARQAAC/8AAAZ5
 
 [MainWindow][DockWidget AnimationCurvesDocker]
 DockArea=8
 Locked=false
 height=448
-width=1429
+width=1278
 xPosition=0
 yPosition=32
 
@@ -436,18 +444,18 @@ yPosition=0
 [MainWindow][DockWidget ColorSelectorNg]
 DockArea=1
 Locked=false
-height=593
-width=513
+height=426
+width=392
 xPosition=0
-yPosition=23
+yPosition=17
 
 [MainWindow][DockWidget CompositionDocker]
 DockArea=1
 Locked=false
-height=457
+height=463
 width=640
 xPosition=0
-yPosition=23
+yPosition=17
 
 [MainWindow][DockWidget DigitalMixer]
 DockArea=2
@@ -468,34 +476,34 @@ yPosition=0
 [MainWindow][DockWidget GridDocker]
 DockArea=1
 Locked=false
-height=457
+height=463
 width=640
 xPosition=0
-yPosition=23
+yPosition=17
 
 [MainWindow][DockWidget HistogramDocker]
 DockArea=2
 Locked=false
-height=457
+height=463
 width=640
 xPosition=0
-yPosition=23
+yPosition=17
 
 [MainWindow][DockWidget History]
 DockArea=2
 Locked=false
-height=457
+height=463
 width=640
 xPosition=0
-yPosition=23
+yPosition=17
 
 [MainWindow][DockWidget KisLayerBox]
 DockArea=1
 Locked=false
-height=601
-width=503
+height=533
+width=439
 xPosition=0
-yPosition=23
+yPosition=17
 
 [MainWindow][DockWidget LogDocker]
 DockArea=2
@@ -516,42 +524,42 @@ yPosition=0
 [MainWindow][DockWidget OnionSkinsDocker]
 DockArea=8
 Locked=false
-height=511
-width=905
+height=351
+width=725
 xPosition=0
-yPosition=23
+yPosition=17
 
 [MainWindow][DockWidget OverviewDocker]
 DockArea=1
 Locked=false
-height=457
+height=463
 width=640
 xPosition=0
-yPosition=23
+yPosition=17
 
 [MainWindow][DockWidget PaletteDocker]
 DockArea=1
 Locked=false
-height=457
+height=463
 width=640
 xPosition=0
-yPosition=23
+yPosition=17
 
 [MainWindow][DockWidget PatternDocker]
 DockArea=2
 Locked=false
-height=348
-width=199
+height=246
+width=162
 xPosition=0
 yPosition=0
 
 [MainWindow][DockWidget PresetDocker]
 DockArea=1
 Locked=false
-height=642
-width=634
+height=562
+width=428
 xPosition=0
-yPosition=23
+yPosition=17
 
 [MainWindow][DockWidget PresetHistory]
 DockArea=2
@@ -572,10 +580,10 @@ yPosition=0
 [MainWindow][DockWidget SmallColorSelector]
 DockArea=2
 Locked=false
-height=457
+height=463
 width=640
 xPosition=0
-yPosition=23
+yPosition=17
 
 [MainWindow][DockWidget Snapshot]
 DockArea=2
@@ -604,10 +612,10 @@ yPosition=0
 [MainWindow][DockWidget SvgSymbolCollectionDocker]
 DockArea=2
 Locked=false
-height=457
+height=463
 width=640
 xPosition=0
-yPosition=23
+yPosition=17
 
 [MainWindow][DockWidget TasksetDocker]
 DockArea=2
@@ -620,8 +628,8 @@ yPosition=0
 [MainWindow][DockWidget TimelineDocker]
 DockArea=8
 Locked=false
-height=461
-width=2926
+height=307
+width=2341
 xPosition=0
 yPosition=32
 
@@ -629,8 +637,8 @@ yPosition=32
 DockArea=4
 Locked=false
 height=58
-width=3817
-xPosition=23
+width=3055
+xPosition=17
 yPosition=0
 
 [MainWindow][DockWidget TouchDocker]
@@ -676,220 +684,220 @@ yPosition=23
 [MainWindow][DockWidget sharedtooldocker]
 DockArea=1
 Locked=false
-height=593
-width=624
+height=426
+width=475
 xPosition=0
-yPosition=23
+yPosition=17
 
 [OverviewDocker]
 pinControls=true
 
 [RecentFiles]
-File1[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Land2-3x3-UD-E.kra
-File10[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Stone-1x1-LRUD-A.kra
-File11[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Stone-1x1-LRUD-B.kra
-File12[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Land2-3x3-LR-C.kra
-File13[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Land2-3x3-LR-D.kra
-File14[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Land2-3x3-UD-A.kra
-File15[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Stone-2x3-LR-A.kra
-File16[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Stone-2x3-LR-B.kra
-File17[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Stone-2x3-LR-C.kra
-File18[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Stone-2x3-LR-D.kra
-File19[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Stone-2x3-LRD-A.kra
-File2[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Land2-3x3-LR-A.kra
-File20[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Stone-2x3-LRU-A.kra
-File21[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Land-3x3-UD-G.kra
-File22[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Land-3x3-UD-H.kra
-File23[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Land2-3x3-LRD-A.kra
-File24[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Stone2-2x5-LR-A.kra
-File25[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Stone2-2x5-LR-B.kra
-File26[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Stone2-2x5-LR-C.kra
-File27[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Land-3x3-RUD-B.kra
-File28[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Land-3x3-RUD-C.kra
-File29[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Land-3x3-RUD-A.kra
-File3[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Land2-3x3-UD-C.kra
-File30[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Land-3x3-RUD-D.kra
-File31[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Stone-8x8-LRUD-A.kra
-File32[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Stone-3x1-LRUD-E.kra
-File33[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Stone-4x2-LRUD-A.kra
-File34[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Stone-2x3-LRUD-B.kra
-File35[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Stone-5x2-LRUD-A.kra
-File36[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Stone-1x1-LRUD-C.kra
-File37[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Stone-3x5-LRUD-A.kra
-File38[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Stone-6x4-LRUD-A.kra
-File39[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Stone-3x3-LRUD-B.kra
-File4[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Land2-3x3-RD-A.kra
-File40[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Stone-4x2-LRUD-B.kra
-File41[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/intangibles/Stone-A.kra
-File42[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Land-3x2-LRUD-A.kra
-File43[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Land-2x5-LRUD-B.kra
-File44[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Land-2x5-LRUD-C.kra
-File45[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Land-6x5-LUD-A.kra
-File46[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Land2-3x3-LD-A.kra
-File47[$e]=$HOME/Documents/GitHub/Overwrite/assets/city/intangible/Buildings-A.kra
-File48[$e]=$HOME/Documents/GitHub/Overwrite/assets/city/intangible/Debris-B.kra
-File49[$e]=$HOME/Documents/GitHub/Overwrite/assets/city/intangible/Dark-A.kra
-File5[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Land2-3x3-LR-B.kra
-File50[$e]=$HOME/Documents/GitHub/Overwrite/assets/city/intangible/Rebar-A.kra
-File51[$e]=$HOME/Documents/GitHub/Overwrite/assets/city/intangible/Debris-A.kra
-File52[$e]=$HOME/Documents/GitHub/Overwrite/assets/city/intangible/H-Beam-A.kra
-File53[$e]=$HOME/Documents/GitHub/Overwrite/assets/city/tangible/LightHead1-1x1-LRUD-A.kra
-File54[$e]=$HOME/Documents/GitHub/Overwrite/assets/city/tangible/Concrete1-1x1-LRUD-A.kra
-File55[$e]=$HOME/Documents/GitHub/Overwrite/assets/city/tangible/Concrete1-3x3-UD-B.kra
-File56[$e]=$HOME/Documents/GitHub/Overwrite/assets/city/tangible/Concrete1-3x3-UD-A.kra
-File57[$e]=$HOME/Documents/GitHub/Overwrite/assets/city/tangible/Concrete1-3x3-UD-C.kra
-File58[$e]=$HOME/Documents/GitHub/Overwrite/assets/city/tangible/Concrete1-3x3-UD-D.kra
-File59[$e]=$HOME/Documents/GitHub/Overwrite/assets/city/tangible/Concrete1-3x3-UD-E.kra
-File6[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Land-3x7-UD-A.kra
-File60[$e]=$HOME/Documents/GitHub/Overwrite/assets/city/tangible/Concrete1-3x3-RUD-A.kra
-File61[$e]=$HOME/Documents/GitHub/Overwrite/assets/city/tangible/Concrete1-3x3-LUD-A.kra
-File62[$e]=$HOME/Documents/GitHub/Overwrite/assets/city/tangible/Concrete1-3x3-RUD-B.kra
-File63[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/tangible/CoatedFloor1-3x3-RUD-A.kra
-File64[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/tangible/CoatedFloor1-3x3-LUD-A.kra
-File65[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/tangible/Pipe1-1x1-LR-A.kra
-File66[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/tangible/Pipe1-1x1-LU-A.kra
-File67[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/tangible/Pipe1-1x1-LD-A.kra
-File68[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/tangible/Pipe1-1x1-RD-A.kra
-File69[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/tangible/Pipe1-1x1-RU-A.kra
-File7[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Land-3x5-UD-A.kra
-File70[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/tangible/Pole1-1x1-LRUD-A.kra
-File71[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/tangible/Roof1-14x4-LRUD-B.kra
-File72[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/intangible/Wall1-2x2-M.kra
-File73[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/intangible/Wall1-2x2-N.kra
-File74[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/intangible/Wall1-2x2-O.kra
-File75[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/intangible/Wall1-2x2-P.kra
-File76[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/intangible/Wall1-2x2-Q.kra
-File77[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/intangible/Wall1-2x2-R.kra
-File78[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/intangible/Wall1-2x2-S.kra
-File79[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/intangible/Wall1-2x2-T.kra
-File8[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Land-3x5-LU-B.kra
-File80[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/intangible/Wall1-2x2-U.kra
-File81[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/intangible/Wall1-2x2-V.kra
-File82[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/intangible/Wall1-2x2-W.kra
-File83[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/intangible/Wall1-2x2-X.kra
-File84[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/tangible/Pipe1-1x1-LRU-A.kra
-File85[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/tangible/Pipe1-1x1-RUD-A.kra
-File86[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/tangible/Pipe1-1x1-LRD-A.kra
-File87[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/tangible/Pipe1-1x1-UD-A.kra
-File88[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/tangible/Roof1-14x4-LRUD-C.kra
-File89[$e]=$HOME/Documents/GitHub/Overwrite/assets/platform/platform_4x1_a.kra
-File9[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Land-3x3-UD-B.kra
-File90[$e]=$HOME/Documents/GitHub/Overwrite/assets/platform/platform_6x1_a.png
-File91[$e]=$HOME/Documents/GitHub/Overwrite/assets/platform/platform_6x1_a.kra
-File92[$e]=$HOME/Documents/GitHub/Overwrite/assets/ice/ice-1x1-A.kra
-File93[$e]=$HOME/Documents/GitHub/Overwrite/assets/ice/ice-1x1-B.kra
-File94[$e]=$HOME/Documents/GitHub/Overwrite/assets/ice/ice-1x1-C.kra
-File95[$e]=$HOME/Documents/GitHub/Overwrite/assets/ice/ice-1x1-D.kra
-File96[$e]=$HOME/Documents/GitHub/Overwrite/assets/mountain/tangible/StoneGround2-3x1-UD-A.kra
-File97[$e]=$HOME/Documents/GitHub/Overwrite/assets/mountain/tangible/StoneGround1-3x3-UD-A.kra
-File98[$e]=$HOME/Documents/GitHub/Overwrite/assets/Palette.kra
-File99[$e]=$HOME/Documents/GitHub/Overwrite/assets/mountain/tangible/SnowyWood1-3x1-UD-A.kra
-Name1=Land2-3x3-UD-E.kra
-Name10=Stone-1x1-LRUD-A.kra
-Name11=Stone-1x1-LRUD-B.kra
-Name12=Land2-3x3-LR-C.kra
-Name13=Land2-3x3-LR-D.kra
-Name14=Land2-3x3-UD-A.kra
-Name15=Stone-2x3-LR-A.kra
-Name16=Stone-2x3-LR-B.kra
-Name17=Stone-2x3-LR-C.kra
-Name18=Stone-2x3-LR-D.kra
-Name19=Stone-2x3-LRD-A.kra
-Name2=Land2-3x3-LR-A.kra
-Name20=Stone-2x3-LRU-A.kra
-Name21=Land-3x3-UD-G.kra
-Name22=Land-3x3-UD-H.kra
-Name23=Land2-3x3-LRD-A.kra
-Name24=Stone2-2x5-LR-A.kra
-Name25=Stone2-2x5-LR-B.kra
-Name26=Stone2-2x5-LR-C.kra
-Name27=Land-3x3-RUD-B.kra
-Name28=Land-3x3-RUD-C.kra
-Name29=Land-3x3-RUD-A.kra
-Name3=Land2-3x3-UD-C.kra
-Name30=Land-3x3-RUD-D.kra
-Name31=Stone-8x8-LRUD-A.kra
-Name32=Stone-3x1-LRUD-E.kra
-Name33=Stone-4x2-LRUD-A.kra
-Name34=Stone-2x3-LRUD-B.kra
-Name35=Stone-5x2-LRUD-A.kra
-Name36=Stone-1x1-LRUD-C.kra
-Name37=Stone-3x5-LRUD-A.kra
-Name38=Stone-6x4-LRUD-A.kra
-Name39=Stone-3x3-LRUD-B.kra
-Name4=Land2-3x3-RD-A.kra
-Name40=Stone-4x2-LRUD-B.kra
-Name41=Stone-A.kra
-Name42=Land-3x2-LRUD-A.kra
-Name43=Land-2x5-LRUD-B.kra
-Name44=Land-2x5-LRUD-C.kra
-Name45=Land-6x5-LUD-A.kra
-Name46=Land2-3x3-LD-A.kra
-Name47=Buildings-A.kra
-Name48=Debris-B.kra
-Name49=Dark-A.kra
-Name5=Land2-3x3-LR-B.kra
-Name50=Rebar-A.kra
-Name51=Debris-A.kra
-Name52=H-Beam-A.kra
-Name53=LightHead1-1x1-LRUD-A.kra
-Name54=Concrete1-1x1-LRUD-A.kra
-Name55=Concrete1-3x3-UD-B.kra
-Name56=Concrete1-3x3-UD-A.kra
-Name57=Concrete1-3x3-UD-C.kra
-Name58=Concrete1-3x3-UD-D.kra
-Name59=Concrete1-3x3-UD-E.kra
-Name6=Land-3x7-UD-A.kra
-Name60=Concrete1-3x3-RUD-A.kra
-Name61=Concrete1-3x3-LUD-A.kra
-Name62=Concrete1-3x3-RUD-B.kra
-Name63=CoatedFloor1-3x3-RUD-A.kra
-Name64=CoatedFloor1-3x3-LUD-A.kra
-Name65=Pipe1-1x1-LR-A.kra
-Name66=Pipe1-1x1-LU-A.kra
-Name67=Pipe1-1x1-LD-A.kra
-Name68=Pipe1-1x1-RD-A.kra
-Name69=Pipe1-1x1-RU-A.kra
-Name7=Land-3x5-UD-A.kra
-Name70=Pole1-1x1-LRUD-A.kra
-Name71=Roof1-14x4-LRUD-B.kra
-Name72=Wall1-2x2-M.kra
-Name73=Wall1-2x2-N.kra
-Name74=Wall1-2x2-O.kra
-Name75=Wall1-2x2-P.kra
-Name76=Wall1-2x2-Q.kra
-Name77=Wall1-2x2-R.kra
-Name78=Wall1-2x2-S.kra
-Name79=Wall1-2x2-T.kra
-Name8=Land-3x5-LU-B.kra
-Name80=Wall1-2x2-U.kra
-Name81=Wall1-2x2-V.kra
-Name82=Wall1-2x2-W.kra
-Name83=Wall1-2x2-X.kra
-Name84=Pipe1-1x1-LRU-A.kra
-Name85=Pipe1-1x1-RUD-A.kra
-Name86=Pipe1-1x1-LRD-A.kra
-Name87=Pipe1-1x1-UD-A.kra
-Name88=Roof1-14x4-LRUD-C.kra
-Name89=platform_4x1_a.kra
-Name9=Land-3x3-UD-B.kra
-Name90=platform_6x1_a.png
-Name91=platform_6x1_a.kra
-Name92=ice-1x1-A.kra
-Name93=ice-1x1-B.kra
-Name94=ice-1x1-C.kra
-Name95=ice-1x1-D.kra
-Name96=StoneGround2-3x1-UD-A.kra
-Name97=StoneGround1-3x3-UD-A.kra
-Name98=Palette.kra
-Name99=SnowyWood1-3x1-UD-A.kra
+File1[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Stone2-2x5-LR-C.kra
+File10[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Stone-5x2-LRUD-A.kra
+File11[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Stone-1x1-LRUD-C.kra
+File12[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Stone-3x5-LRUD-A.kra
+File13[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Stone-6x4-LRUD-A.kra
+File14[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Stone-3x3-LRUD-B.kra
+File15[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Stone-4x2-LRUD-B.kra
+File16[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/intangibles/Stone-A.kra
+File17[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Land-3x2-LRUD-A.kra
+File18[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Land-2x5-LRUD-B.kra
+File19[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Land-2x5-LRUD-C.kra
+File2[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Land-3x3-RUD-B.kra
+File20[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Land-6x5-LUD-A.kra
+File21[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Land2-3x3-LD-A.kra
+File22[$e]=$HOME/Documents/GitHub/Overwrite/assets/city/intangible/Debris-B.kra
+File23[$e]=$HOME/Documents/GitHub/Overwrite/assets/city/intangible/Dark-A.kra
+File24[$e]=$HOME/Documents/GitHub/Overwrite/assets/city/intangible/Rebar-A.kra
+File25[$e]=$HOME/Documents/GitHub/Overwrite/assets/city/intangible/Debris-A.kra
+File26[$e]=$HOME/Documents/GitHub/Overwrite/assets/city/intangible/H-Beam-A.kra
+File27[$e]=$HOME/Documents/GitHub/Overwrite/assets/city/tangible/LightHead1-1x1-LRUD-A.kra
+File28[$e]=$HOME/Documents/GitHub/Overwrite/assets/city/tangible/Concrete1-1x1-LRUD-A.kra
+File29[$e]=$HOME/Documents/GitHub/Overwrite/assets/city/tangible/Concrete1-3x3-UD-B.kra
+File3[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Land-3x3-RUD-C.kra
+File30[$e]=$HOME/Documents/GitHub/Overwrite/assets/city/tangible/Concrete1-3x3-UD-A.kra
+File31[$e]=$HOME/Documents/GitHub/Overwrite/assets/city/tangible/Concrete1-3x3-UD-C.kra
+File32[$e]=$HOME/Documents/GitHub/Overwrite/assets/city/tangible/Concrete1-3x3-UD-D.kra
+File33[$e]=$HOME/Documents/GitHub/Overwrite/assets/city/tangible/Concrete1-3x3-UD-E.kra
+File34[$e]=$HOME/Documents/GitHub/Overwrite/assets/city/tangible/Concrete1-3x3-RUD-A.kra
+File35[$e]=$HOME/Documents/GitHub/Overwrite/assets/city/tangible/Concrete1-3x3-LUD-A.kra
+File36[$e]=$HOME/Documents/GitHub/Overwrite/assets/city/tangible/Concrete1-3x3-RUD-B.kra
+File37[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/tangible/CoatedFloor1-3x3-RUD-A.kra
+File38[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/tangible/CoatedFloor1-3x3-LUD-A.kra
+File39[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/tangible/Pipe1-1x1-LR-A.kra
+File4[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Land-3x3-RUD-A.kra
+File40[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/tangible/Pipe1-1x1-LU-A.kra
+File41[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/tangible/Pipe1-1x1-LD-A.kra
+File42[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/tangible/Pipe1-1x1-RD-A.kra
+File43[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/tangible/Pipe1-1x1-RU-A.kra
+File44[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/tangible/Pole1-1x1-LRUD-A.kra
+File45[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/tangible/Roof1-14x4-LRUD-B.kra
+File46[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/intangible/Wall1-2x2-M.kra
+File47[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/intangible/Wall1-2x2-N.kra
+File48[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/intangible/Wall1-2x2-O.kra
+File49[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/intangible/Wall1-2x2-P.kra
+File5[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Land-3x3-RUD-D.kra
+File50[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/intangible/Wall1-2x2-Q.kra
+File51[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/intangible/Wall1-2x2-R.kra
+File52[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/intangible/Wall1-2x2-S.kra
+File53[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/intangible/Wall1-2x2-T.kra
+File54[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/intangible/Wall1-2x2-U.kra
+File55[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/intangible/Wall1-2x2-V.kra
+File56[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/intangible/Wall1-2x2-W.kra
+File57[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/intangible/Wall1-2x2-X.kra
+File58[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/tangible/Pipe1-1x1-LRU-A.kra
+File59[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/tangible/Pipe1-1x1-RUD-A.kra
+File6[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Stone-8x8-LRUD-A.kra
+File60[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/tangible/Pipe1-1x1-LRD-A.kra
+File61[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/tangible/Pipe1-1x1-UD-A.kra
+File62[$e]=$HOME/Documents/GitHub/Overwrite/assets/factory/tangible/Roof1-14x4-LRUD-C.kra
+File63[$e]=$HOME/Documents/GitHub/Overwrite/assets/platform/platform_4x1_a.kra
+File64[$e]=$HOME/Documents/GitHub/Overwrite/assets/platform/platform_6x1_a.png
+File65[$e]=$HOME/Documents/GitHub/Overwrite/assets/platform/platform_6x1_a.kra
+File66[$e]=$HOME/Documents/GitHub/Overwrite/assets/ice/ice-1x1-A.kra
+File67[$e]=$HOME/Documents/GitHub/Overwrite/assets/ice/ice-1x1-B.kra
+File68[$e]=$HOME/Documents/GitHub/Overwrite/assets/ice/ice-1x1-C.kra
+File69[$e]=$HOME/Documents/GitHub/Overwrite/assets/ice/ice-1x1-D.kra
+File7[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Stone-3x1-LRUD-E.kra
+File70[$e]=$HOME/Documents/GitHub/Overwrite/assets/mountain/tangible/StoneGround2-3x1-UD-A.kra
+File71[$e]=$HOME/Documents/GitHub/Overwrite/assets/mountain/tangible/StoneGround1-3x3-UD-A.kra
+File72[$e]=$HOME/Documents/GitHub/Overwrite/assets/mountain/intangible/Snowflakes-A.kra
+File73[$e]=$HOME/Documents/GitHub/Overwrite/assets/mountain/intangible/Snowflakes-B.kra
+File74[$e]=$HOME/Documents/GitHub/Overwrite/assets/mountain/tangible/SnowyWood1-3x1-UD-A.kra
+File75[$e]=$HOME/Documents/GitHub/Overwrite/assets/mountain/tangible/SnowyWood1-3x1-UD-B.kra
+File76[$e]=$HOME/Documents/GitHub/Overwrite/assets/mountain/tangible/SnowyWood1-3x1-UD-C.kra
+File77[$e]=$HOME/Documents/GitHub/Overwrite/assets/mountain/tangible/SnowyWood1-3x1-UD-D.kra
+File78[$e]=$HOME/Documents/GitHub/Overwrite/assets/mountain/tangible/SnowyWood1-2x1-UD-A.kra
+File79[$e]=$HOME/Documents/GitHub/Overwrite/assets/mountain/tangible/SnowyWood1-1x1-RUD-A.kra
+File8[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Stone-4x2-LRUD-A.kra
+File80[$e]=$HOME/Documents/GitHub/Overwrite/assets/mountain/tangible/SnowyWood1-1x1-LUD-A.kra
+File81[$e]=$HOME/Documents/GitHub/Overwrite/assets/city/intangible/Buildings-A.kra
+File82[$e]=$HOME/Documents/GitHub/Overwrite/assets/castle/tangible/tmp-3x3-UD-A.kra
+File83[$e]=$HOME/Documents/GitHub/Overwrite/assets/castle/tangible/tmp-3x3-UD-A (Copy).kra
+File84[$e]=$HOME/Documents/GitHub/Overwrite/assets/mountain/intangible/SnowStone-A.kra
+File85[$e]=$HOME/Documents/GitHub/Overwrite/assets/mountain/tangible/StoneGround1-3x3-LR-B.kra
+File86[$e]=$HOME/Documents/GitHub/Overwrite/assets/mountain/tangible/StoneGround1-3x3-LR-C.kra
+File87[$e]=$HOME/Documents/GitHub/Overwrite/assets/mountain/tangible/StoneGround1-3x3-LR-D.kra
+File88[$e]=$HOME/Documents/GitHub/Overwrite/assets/mountain/tangible/StoneGround1-3x3-LU-A.kra
+File89[$e]=$HOME/Documents/GitHub/Overwrite/assets/mountain/tangible/StoneGround1-3x3-RU-A.kra
+File9[$e]=$HOME/Documents/GitHub/Overwrite/assets/forest/tangibles/Stone-2x3-LRUD-B.kra
+File90[$e]=$HOME/Documents/GitHub/Overwrite/assets/mountain/tangible/StoneGround1-3x3-LR-A.kra
+File91[$e]=$HOME/Documents/GitHub/Overwrite/assets/mountain/intangible/Mountains-A.kra
+File92[$e]=$HOME/Documents/GitHub/Overwrite/assets/mountain/tangible/SnowyWood1-1x1-UD-A.kra
+File93[$e]=$HOME/Documents/GitHub/Overwrite/assets/Palette.kra
+File94[$e]=$HOME/Documents/GitHub/Overwrite/assets/mountain/intangible/Forest-A.kra
+File95[$e]=$HOME/Documents/GitHub/Overwrite/assets/mountain/tangible/StoneGround1-2x2-LRUD-A.kra
+File96[$e]=$HOME/Documents/GitHub/Overwrite/assets/mountain/tangible/StoneGround1-2x2-LRUD-B.kra
+File97[$e]=$HOME/Documents/GitHub/Overwrite/assets/mountain/intangible/SnowMound-A.kra
+File98[$e]=$HOME/Documents/GitHub/Overwrite/assets/mountain/intangible/Forest-B.kra
+File99[$e]=$HOME/Documents/GitHub/Overwrite/assets/mountain/intangible/SnowWall-A.kra
+Name1=Stone2-2x5-LR-C.kra
+Name10=Stone-5x2-LRUD-A.kra
+Name11=Stone-1x1-LRUD-C.kra
+Name12=Stone-3x5-LRUD-A.kra
+Name13=Stone-6x4-LRUD-A.kra
+Name14=Stone-3x3-LRUD-B.kra
+Name15=Stone-4x2-LRUD-B.kra
+Name16=Stone-A.kra
+Name17=Land-3x2-LRUD-A.kra
+Name18=Land-2x5-LRUD-B.kra
+Name19=Land-2x5-LRUD-C.kra
+Name2=Land-3x3-RUD-B.kra
+Name20=Land-6x5-LUD-A.kra
+Name21=Land2-3x3-LD-A.kra
+Name22=Debris-B.kra
+Name23=Dark-A.kra
+Name24=Rebar-A.kra
+Name25=Debris-A.kra
+Name26=H-Beam-A.kra
+Name27=LightHead1-1x1-LRUD-A.kra
+Name28=Concrete1-1x1-LRUD-A.kra
+Name29=Concrete1-3x3-UD-B.kra
+Name3=Land-3x3-RUD-C.kra
+Name30=Concrete1-3x3-UD-A.kra
+Name31=Concrete1-3x3-UD-C.kra
+Name32=Concrete1-3x3-UD-D.kra
+Name33=Concrete1-3x3-UD-E.kra
+Name34=Concrete1-3x3-RUD-A.kra
+Name35=Concrete1-3x3-LUD-A.kra
+Name36=Concrete1-3x3-RUD-B.kra
+Name37=CoatedFloor1-3x3-RUD-A.kra
+Name38=CoatedFloor1-3x3-LUD-A.kra
+Name39=Pipe1-1x1-LR-A.kra
+Name4=Land-3x3-RUD-A.kra
+Name40=Pipe1-1x1-LU-A.kra
+Name41=Pipe1-1x1-LD-A.kra
+Name42=Pipe1-1x1-RD-A.kra
+Name43=Pipe1-1x1-RU-A.kra
+Name44=Pole1-1x1-LRUD-A.kra
+Name45=Roof1-14x4-LRUD-B.kra
+Name46=Wall1-2x2-M.kra
+Name47=Wall1-2x2-N.kra
+Name48=Wall1-2x2-O.kra
+Name49=Wall1-2x2-P.kra
+Name5=Land-3x3-RUD-D.kra
+Name50=Wall1-2x2-Q.kra
+Name51=Wall1-2x2-R.kra
+Name52=Wall1-2x2-S.kra
+Name53=Wall1-2x2-T.kra
+Name54=Wall1-2x2-U.kra
+Name55=Wall1-2x2-V.kra
+Name56=Wall1-2x2-W.kra
+Name57=Wall1-2x2-X.kra
+Name58=Pipe1-1x1-LRU-A.kra
+Name59=Pipe1-1x1-RUD-A.kra
+Name6=Stone-8x8-LRUD-A.kra
+Name60=Pipe1-1x1-LRD-A.kra
+Name61=Pipe1-1x1-UD-A.kra
+Name62=Roof1-14x4-LRUD-C.kra
+Name63=platform_4x1_a.kra
+Name64=platform_6x1_a.png
+Name65=platform_6x1_a.kra
+Name66=ice-1x1-A.kra
+Name67=ice-1x1-B.kra
+Name68=ice-1x1-C.kra
+Name69=ice-1x1-D.kra
+Name7=Stone-3x1-LRUD-E.kra
+Name70=StoneGround2-3x1-UD-A.kra
+Name71=StoneGround1-3x3-UD-A.kra
+Name72=Snowflakes-A.kra
+Name73=Snowflakes-B.kra
+Name74=SnowyWood1-3x1-UD-A.kra
+Name75=SnowyWood1-3x1-UD-B.kra
+Name76=SnowyWood1-3x1-UD-C.kra
+Name77=SnowyWood1-3x1-UD-D.kra
+Name78=SnowyWood1-2x1-UD-A.kra
+Name79=SnowyWood1-1x1-RUD-A.kra
+Name8=Stone-4x2-LRUD-A.kra
+Name80=SnowyWood1-1x1-LUD-A.kra
+Name81=Buildings-A.kra
+Name82=tmp-3x3-UD-A.kra
+Name83=tmp-3x3-UD-A (Copy).kra
+Name84=SnowStone-A.kra
+Name85=StoneGround1-3x3-LR-B.kra
+Name86=StoneGround1-3x3-LR-C.kra
+Name87=StoneGround1-3x3-LR-D.kra
+Name88=StoneGround1-3x3-LU-A.kra
+Name89=StoneGround1-3x3-RU-A.kra
+Name9=Stone-2x3-LRUD-B.kra
+Name90=StoneGround1-3x3-LR-A.kra
+Name91=Mountains-A.kra
+Name92=SnowyWood1-1x1-UD-A.kra
+Name93=Palette.kra
+Name94=Forest-A.kra
+Name95=StoneGround1-2x2-LRUD-A.kra
+Name96=StoneGround1-2x2-LRUD-B.kra
+Name97=SnowMound-A.kra
+Name98=Forest-B.kra
+Name99=SnowWall-A.kra
 maxRecentFileItems=100
 
 [SelectedTags]
 brushes=All
 gamutmasks=All
 gradients=All
-paintoppresets=Textures
+paintoppresets=my
 palettes=All
 patterns=All
 tasksets=All
@@ -923,6 +931,9 @@ Last Used=<!DOCTYPE params>\n<params version="0">\n <param name="type" type="int
 [filterdialog]
 forceLodMode=true
 showPreview=true
+
+[hsvadjustment_filter_bookmarks]
+Last Used=<!DOCTYPE params>\n<params version="0">\n <param name="colorize" type="internal">false</param>\n <param name="compatibilityMode" type="internal">false</param>\n <param name="h" type="internal">0</param>\n <param name="s" type="internal">0</param>\n <param name="type" type="internal">1</param>\n <param name="v" type="internal">46</param>\n</params>\n
 
 [krita]
 ColorSpaceExtensionsPlugins=\\0

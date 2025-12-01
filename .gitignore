@@ -3,3 +3,4 @@
 /godot/**/*cache*
 /godot/**/logs
 /mpv/mpv/cache
+*.log

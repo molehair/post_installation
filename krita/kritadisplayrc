@@ -1,5 +1,5 @@
 [General]
-EnableHiDPI=false
+EnableHiDPI=true
 LogUsage=true
 OpenGLRenderer=auto
 canvasState=OPENGL_SUCCESS
