@@ -12,8 +12,8 @@ fi
 
 
 # update mirror list
-sudo pacman -S reflector --noconfirm
-sudo reflector --latest 10 --sort rate --save /etc/pacman.d/mirrorlist
+#sudo pacman -S reflector --noconfirm
+#sudo reflector --latest 10 --sort rate --save /etc/pacman.d/mirrorlist
 
 # install yay
 sudo pacman -S --needed git base-devel --noconfirm
